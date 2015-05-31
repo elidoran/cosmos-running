@@ -66,6 +66,7 @@ fn1 = (context) ->
 
 ### Ordering before or after another function
 
+```coffeescript
 fn1 = (context) -> console.log 'running: ', context.running
 fn1.options =
   id: 'Function1' # any ID unique for all functions added to Running
@@ -74,6 +75,7 @@ fn1.options =
 
 # May specify a '*' in either before or after.
 # When more than one uses a '*', they will be ordered based on when they were added.
+```
 
 ## API
 
