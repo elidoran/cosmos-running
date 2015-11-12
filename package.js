@@ -15,7 +15,7 @@ Package.onUse(function(api) {
     'tracker',       // onChange uses Tracker
     'reactive-var',  // _value is a ReactiveVar
     'coffeescript@1.0.11',
-    'cosmos:chain@0.4.0'
+    'cosmos:chain@0.4.1'
   ], cs);
 
   api.addFiles([
