@@ -1,6 +1,6 @@
 Package.describe({
   name: 'cosmos:running',
-  version: '0.2.0',
+  version: '0.2.1',
   summary: 'Ordered startup functions ',
   git: 'http://github.com/elidoran/cosmos-running',
   documentation: 'README.md'
