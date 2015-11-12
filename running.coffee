@@ -39,6 +39,12 @@ Running =
 
   _setup: (options) ->
 
+    # get previous options if none specified for this call
+    options ?= Running._options
+
+    # store options to be used in the above statement in a later call
+    Running._options = options
+
     # currently there are no supported options
 
     return
