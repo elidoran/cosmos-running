@@ -1,6 +1,6 @@
 ran = {}
 stop = {}
-fn1 = (context) ->
+fn1 = (_, context) ->
   console.log 'fn1 context: ', context
   if context?.running is true
     ran.fn1 = true
