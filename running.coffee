@@ -7,11 +7,10 @@ Running =
   getValue: -> @_value.get()
 
   # create the chain
-  _chain: new Chain('chain') # 'chain' type, not pipeline.
+  _chain: new Chain
 
   # TODO: validate it's a function
-  onChange: (action) ->
-    @_chain.add action
+  onChange: (action) -> @_chain.add action
 
   start: (options) ->
 
